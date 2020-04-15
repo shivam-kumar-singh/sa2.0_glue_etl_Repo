@@ -11,6 +11,7 @@ phases:
     commands:
       - echo Build started on `date`
       - ls
+      - cd yash-sa2-etl-pipeline
       - mvn clean 
       - mvn install
      
